@@ -1,0 +1,392 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home / X</title>
+  <link href="src/output.css" rel="stylesheet">
+  <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body class="bg-black text-white ">
+  <div class="flex container mx-auto">
+    <div class="first w-full h-[100vh] flex flex-col justify-between relative">
+
+      <div class="sidebar flex flex-col mx-auto my-3 sticky">
+
+        <div class="logo px-3">
+          <svg viewBox="0 0 24 24" aria-hidden="true"
+            class="w-7 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+            <g>
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+              </path>
+            </g>
+          </svg>
+        </div>
+
+        <ul class="flex flex-col items-start py-4">
+          <li class=" px-3 py-2 flex items-center hover:bg-[#181818] rounded-full cursor-pointer">
+            <span class="text-3xl material-symbols-outlined">
+              home
+            </span><span class="px-3 text-xl font-semibold">Home</span>
+          </li>
+          <li class="px-3 py-2 flex items-center  hover:bg-[#181818] rounded-full cursor-pointer">
+            <span class="text-3xl material-symbols-outlined">
+              search
+            </span><span class="px-3 text-xl font-semibold">Explore</span>
+          </li>
+          <li class="px-3 py-2 flex items-center  hover:bg-[#181818] rounded-full cursor-pointer">
+            <span class="text-3xl material-symbols-outlined">
+              notifications
+            </span><span class="px-3 text-xl font-semibold">Notifications</span>
+          </li>
+          <li class="px-3 py-2 flex items-center  hover:bg-[#181818] rounded-full cursor-pointer">
+            <span class="text-3xl material-symbols-outlined">
+              mail
+            </span><span class="px-3 text-xl font-semibold">Messages</span>
+          </li>
+          <li class="px-3 py-2 flex items-center  hover:bg-[#181818] rounded-full cursor-pointer">
+            <span class="text-3xl material-symbols-outlined">
+              bolt
+            </span><span class="px-3 text-xl font-semibold">Grok</span>
+          </li>
+          <li class="px-3 py-2 flex items-center  hover:bg-[#181818] rounded-full cursor-pointer">
+            <span class="text-3xl material-symbols-outlined">
+              list
+            </span><span class="px-3 text-xl font-semibold">Lists</span>
+          </li>
+          <li class="px-3 py-2 flex items-center  hover:bg-[#181818] rounded-full cursor-pointer">
+            <span class="text-3xl material-symbols-outlined">
+              bookmark
+            </span><span class="px-3 text-xl font-semibold">Bookmarks</span>
+          </li>
+          <li class="px-3 py-2 flex items-center  hover:bg-[#181818] rounded-full cursor-pointer">
+            <span class="text-3xl material-symbols-outlined">
+              group
+            </span><span class="px-3 text-xl font-semibold">Communities</span>
+          </li>
+          <li class="px-3 py-2 flex items-center  hover:bg-[#181818] rounded-full cursor-pointer">
+            <span class="text-3xl material-symbols-outlined">
+              workspace_premium
+            </span><span class="px-3 text-xl font-semibold">Premium</span>
+          </li>
+          <li class="px-3 py-2 flex items-center  hover:bg-[#181818] rounded-full cursor-pointer">
+            <span class="text-3xl material-symbols-outlined">
+              person
+            </span><span class="px-3 text-xl font-semibold">Profile</span>
+          </li>
+          <li class="px-3 py-2 flex items-center  hover:bg-[#181818] rounded-full cursor-pointer">
+            <span class="text-3xl material-symbols-outlined">
+              more_horiz
+            </span><span class="px-3 text-xl font-semibold">More</span>
+          </li>
+        </ul>
+
+        <button class="bg-blue-500 hover:bg-[#1A8CD8] text-white font-bold py-4 px-8 rounded-full">
+          Post
+        </button>
+
+      </div>
+      <div class="flex mx-auto my-4 absolute bottom-5 left-[7.5rem]">
+        <div>
+          <img class="w-10 rounded-full"
+            src="https://pbs.twimg.com/profile_images/1685719997631569920/i30hJ8DO_400x400.jpg" alt="">
+        </div>
+        <div class="ml-3">
+          <div><b>Aniket</b></div>
+          <div>@a_nalegaonkar</div>
+        </div>
+      </div>
+      <!-- End of sidebar div -->
+    </div>
+    <!-- End of first div -->
+
+    <div class="second border-x-[1px] border-[#2b2b2b] relative">
+      <div class="bg-blue-400 w-16 h-1 absolute top-11 left-[7.3rem] rounded-full"></div>
+
+      <div class="upper flex justify-around border-y border-[#2b2b2b] p-3">
+        <div class="for_you font-bold">For You</div>
+        <div class="following font-semibold text-[#666666]">Following</div>
+      </div>
+
+      <div class="whatishap bg-black flex flex-col border border-[#202327] p-3">
+        <div class="flex"><img class="w-10 rounded-full"
+            src="https://pbs.twimg.com/profile_images/1685719997631569920/i30hJ8DO_400x400.jpg" alt="">
+          <input type="text" class="px-2 ml-2 text-xl text-[#8897AF] focus:outline-none bg-black focus-within:bg-black"
+            placeholder="What is Happening?">
+        </div>
+
+        <div class="visibility flex flex-col  px-3 text-blue-500">
+          <div class="flex my-4 mx-2">
+            <span class="material-symbols-outlined">
+              public
+            </span>
+            <a class="ml-2" href="">Everyone can reply</a>
+          </div>
+
+          <div class="flex justify-between items-center">
+            <ul class="flex ml-3">
+              <li class="mx-2cursor-pointer"><span class="material-symbols-outlined fill-[customeBlue]">
+                  image
+                </span>
+              </li>
+              <li class="mx-2 cursor-pointer text-2xl"><span class="material-symbols-outlined">
+                  gif
+                </span>
+              </li>
+              <li class="mx-2 cursor-pointer"><span class="material-symbols-outlined">
+                  ballot
+                </span>
+              </li>
+              <li class="mx-2 cursor-pointer"><span class="material-symbols-outlined ">
+                  mood
+                </span>
+                </li">
+              <li class="mx-2 cursor-pointer"><span class="material-symbols-outlined">
+                  schedule
+                </span>
+                </li">
+
+            </ul>
+            <div>
+              <button class="bg-blue-500 hover:bg-[#1A8CD8] text-white font-bold py-1 px-8 rounded-full">
+                Post
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="posts flex flex-col justify-start p-2 border border-[#202327] hover:bg-gray-950">
+        <div class="combime flex">
+          <div class="left">
+            <img class="w-10 rounded-full m-3"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRefZpCqqAFT18xpy9s-1DnKM89uYrS1fxzmw&s" alt="">
+          </div>
+          <div class="right w-[80%] mx-3 my-3">
+            <div class="username">
+              <div class="flex justify-between items-center">
+                <span>
+                  <b>Narendra Modi</b>
+                  <span class="mx-2 text-gray-500">@narendramodi</span>
+                </span>
+                <a class="text-xl">...</a>
+              </div>
+            </div>
+            <div class="desc text-sm">Had a very good meeting with PM @GiorgiaMeloni
+              . Thanked her for inviting India to be a part of the G7 Summit and for the wonderful arrangements. We
+              discussed ways to further cement India-Italy relations in areas like commerce, energy, defence, telecom
+              and more. Our nations will</div>
+          </div>
+        </div>
+        <div class="photos p-3">
+          <img class="rounded-2xl" src="https://pbs.twimg.com/media/GQDjeIIWUAAGIpS?format=jpg&name=large" alt="">
+        </div>
+
+        <div class="flex justify-around">
+          <div
+            class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+            <span class="material-symbols-outlined p-2">
+              chat_bubble
+            </span>5k
+          </div>
+          <div
+            class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+            <span class="material-symbols-outlined p-2">
+              repeat
+            </span>19k
+          </div>
+          <div
+            class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+            <span class="material-symbols-outlined p-2">
+              favorite
+            </span>100k
+          </div>
+          <div
+            class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+            <span class="material-symbols-outlined p-2">
+              bar_chart
+            </span>10k
+          </div>
+        </div>
+
+      </div>
+
+      <div class="posts flex flex-col justify-start p-2 border border-[#202327] hover:bg-gray-950">
+        <div class="combime flex">
+          <div class="left">
+            <img class="w-10 rounded-full m-3"
+              src="https://pbs.twimg.com/profile_images/1559752542372122624/6UiH4Ubt_400x400.jpg" alt="">
+          </div>
+          <div class="right w-[80%] mx-3 my-3">
+            <div class="username">
+              <div class="flex justify-between">
+                <span>
+                  <b>RVJC Media</b>
+                  <span class="mx-2 text-gray-500">@RVCJ_FB</span>
+                </span>
+                <a class="text-xl">...</a>
+              </div>
+            </div>
+            <div class="desc text-sm">Caption This</div>
+          </div>
+        </div>
+        <div class="photos p-3">
+          <img class="rounded-3xl" src="https://pbs.twimg.com/media/GQCuuvWbEAYt5kd?format=jpg&name=large" alt="">
+        </div>
+        <div class="flex justify-around">
+          <div
+            class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+            <span class="material-symbols-outlined p-2">
+              chat_bubble
+            </span>2k
+          </div>
+          <div
+            class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+            <span class="material-symbols-outlined p-2">
+              repeat
+            </span>3k
+          </div>
+          <div
+            class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+            <span class="material-symbols-outlined p-2">
+              favorite
+            </span>11k
+          </div>
+          <div
+            class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+            <span class="material-symbols-outlined p-2">
+              bar_chart
+            </span>1k
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <!-- End of second div -->
+
+    <div class="third w-full flex flex-col items-start ml-5 my-1.5 ">
+
+      <div
+        class="search bg-[#202327] rounded-full flex  focus-within:border-blue-500 focus-within:bg-black border border-[#202327]">
+        <span class="material-symbols-outlined py-2 px-2">
+          search
+        </span>
+        <input type="text"
+          class="px-2 text-[#8897AF] focus:outline-none rounded-full bg-[#202327] focus-within:bg-black"
+          placeholder="Search">
+      </div>
+
+      <div class="subscribe flex flex-col items-start px-4 py-2 my-4 border border-[#2b2b2b]  rounded-2xl w-[70%]">
+        <h2 class="my-1 text-xl  font-extrabold">Subcribe To Premium</h2>
+        <p class="my-0">Subscribe to unlock new features and if eligible, receive a share of ads revenue</p>
+        <button
+          class="bg-blue-500 my-2 hover:bg-[#1A8CD8] text-white font-bold rounded-full px-3 py-1">Subscribe</button>
+      </div>
+
+      <div class="trending flex flex-col items-start px-4 py-2 my-4 border border-[#2b2b2b]  rounded-2xl w-[70%]">
+        <h2 class="my-1 text-xl  font-extrabold">What's Happening</h2>
+        <div class="flex items-center">
+          <img class="w-1/4 rounded-2xl"
+            src="https://img.fcbayern.com/image/upload/t_cms-1x1-seo/v1715691678/cms/public/images/fcbayern-com/homepage/Saison-23-24/Profis/Nationalspieler/240514-mueller-musiala-dfb-ima.jpg"
+            alt="">
+          <p class="ml-3">Germany vs Switzerland</p>
+        </div>
+
+        <div class="trending my-3">
+          <p class="text-[#3c3c3c] my-1">Trending in India</p>
+          <b>#Prabhas</b>
+          <p class="text-[#3c3c3c]">199K Posts</p>
+        </div>
+        <div class="trending my-3">
+          <!-- <p class="text-[#3c3c3c] my-1">Trending in India</p> -->
+          <b>#Andu Pandu</b>
+          <p class="text-[#3c3c3c]">199K Posts</p>
+        </div>
+        <div class="trending my-3">
+          <!-- <p class="text-[#3c3c3c] my-1">Trending in India</p> -->
+          <b>#KYAHAAL</b>
+          <p class="text-[#3c3c3c]">199K Posts</p>
+        </div>
+        <div class="trending my-3">
+          <!-- <p class="text-[#3c3c3c] my-1">Trending in India</p> -->
+          <b>#ALI TMKC</b>
+          <p class="text-[#3c3c3c]">199K Posts</p>
+        </div>
+
+      </div>
+
+      <div class="last flex flex-col border border-[#2b2b2b]  rounded-2xl w-[70%] px-4 py-2 items-start">
+        <div class="one my-2 text-xl font-bold">Who To Follow</div>
+
+        <div class="two my-2 flex">
+          <div class="left-1">
+            <img class="w-10 rounded-full"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Kth4Er3tYfIlEPhGpBxH2QO9Zzi90tij9Q&s" alt="">
+          </div>
+
+          <div class="right-1 ml-3 flex justify-between items-center">
+            <div class="left-2">
+              <div class="title"><b>NBC</b></div>
+              <div class="handle">@NBCmedia</div>
+            </div>
+            <div class="right-2">
+              <button class="rounded-full ml-5 bg-white text-black px-5 py-1">Follow</button>
+            </div>
+          </div>
+
+        </div>
+        <div class="two my-3 flex">
+          <div class="left-1">
+            <img class="w-10 rounded-full"
+              src="https://yt3.googleusercontent.com/ytc/AIdro_lNjMjFKKuxbYwbdaSW3-UxLNFnUDKeplMdo4sU-zWedw=s900-c-k-c0x00ffffff-no-rj"
+              alt="">
+          </div>
+
+          <div class="right-1 ml-3 flex justify-between items-center">
+            <div class="left-2">
+              <div class="title"><b>SteamWorks</b></div>
+              <div class="handle">@steamworks</div>
+            </div>
+            <div class="right-2">
+              <button class="rounded-full ml-5 bg-white text-black px-5 py-1">Follow</button>
+            </div>
+          </div>
+
+        </div>
+        <div class="two my-2 flex">
+          <div class="left-1">
+            <img class="w-10 rounded-full"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwtsB61w2YPxuPtvi2BN5adL3KK9vmv6XZZg&s" alt="">
+          </div>
+
+          <div class="right-1 ml-3 flex justify-between items-center">
+            <div class="left-2">
+              <div class="title"><b>Tech America</b></div>
+              <div class="handle">@techamerica</div>
+            </div>
+            <div class="right-2">
+              <button class="rounded-full ml-5 bg-white text-black px-5 py-1">Follow</button>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+    <!-- End of third div -->
+  </div>
+
+
+  </div>
+</body>
+
+</html>
